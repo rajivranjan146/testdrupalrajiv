@@ -1,0 +1,22 @@
+<?php
+
+/**
+* Implements hook_menu()
+*/
+function customs_array() {
+  return array(
+    'admin/content/custom2' => array(
+      'title' => 'custom2 list',
+      'route_name' => 'customs_list',
+    ),
+    'admin/content/custom2/add' => array(
+      'title' => 'custom2 Add',
+      'route_name' => 'customs_add',
+    ),
+    'admin/content/custom2/delete/%' => array(
+      'title' => 'Delete custom2',
+      'route_name' => 'customs_delete',
+    ),
+  );
+}
+

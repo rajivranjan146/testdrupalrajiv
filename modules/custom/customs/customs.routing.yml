@@ -1,0 +1,30 @@
+customs_list:
+  path: '/admin/content/custom2'
+  defaults:
+    _controller: '\Drupal\customs\Controller\AdminController::content'
+  requirements:
+    _permission: 'access content'
+
+customs_add:
+  path: '/admin/content/custom2/add'
+  defaults:
+    _form: '\Drupal\customs\AddForm'
+    _title: 'Create custom2'
+  requirements:
+    _permission: 'access content'
+
+customs_edit:
+  path: 'admin/content/custom2/edit/{id}'
+  defaults:
+    _form: '\Drupal\customs\AddForm'
+    _title: 'Edit custom2'
+  requirements:
+    _permission: 'access content'
+
+customs_delete:
+  path: '/admin/content/custom2/delete/{id}'
+  defaults:
+    _form: 'Drupal\customs\DeleteForm'
+    _title: 'Delete custom2'
+  requirements:
+    _permission: 'access content'

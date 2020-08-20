@@ -1,0 +1,5 @@
+name: Custom content
+description: 'Custom content Drupal 8 Module.'
+type: module
+core: 8.x
+package: Customs

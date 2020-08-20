@@ -1,0 +1,4 @@
+customs_list:
+  title: Test Custom
+  route_name: customs_list
+  base_route: system.admin_content
